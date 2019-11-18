@@ -12,6 +12,7 @@ TC = []  # completed tasks
 total_energy_saved = 0
 deadline_missed = 0
 
+
 def power_aware(env, tasks):
     print('start to schedule tasks')
     tasks_in_queue = []
